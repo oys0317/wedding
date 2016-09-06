@@ -475,26 +475,14 @@ select option {
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
-.main-drop {
-    position: relative;
-}
-.hands h4 {
-       font-size: 2.8em;
-    text-align: center;
-    color: #fff;
-    margin-bottom: 18px;
-}
-.hands {
-    position: absolute;
-    top: 66%;
-    left:5%;
-}
 .couple {
-       position: absolute;
-    z-index: 9999;
+  position: absolute;
+  top: 66%;
+  left:3%;
+  z-index: 9999;
 }
 .couple h5 {
-        text-align: center;
+    text-align: center;
     margin-top: 26px;
     font-size: 2em;
     color: #fff
@@ -1702,6 +1690,11 @@ ul.bottom i {
 	}
 }
 @media (max-width:991px){
+      .banner-info h3 {
+        font-size: 3em;
+        text-align: center;
+        text-indent: -100px
+      }
 	.top-menu ul li a {
 		position: relative;
 		padding: 18px 4px;
@@ -1709,21 +1702,14 @@ ul.bottom i {
 	.logo a h1 {
 		font-size: 3em;
 	}
-	.main-drop img {
-		width: 31%;
-		text-align: center;
-		margin: 0 auto;
-	}
 	.couple img{
 	  width: 51%;
+        text-align: center;
+        margin: 0 auto;
 	}
-	.hands h4 {
-		font-size: 2.4em;
-		margin-bottom: 11px;
-	}
-	.hands {
-		top: 61%;
-		left: 5%;
+	.couple {
+		top: 58%;
+		left: 3%;
 	}
 	.groom, .bride {
 		padding: 2em 1.35em;
@@ -2005,6 +1991,7 @@ ul.bottom i {
 	}
 	.banner-info h3 {
 		font-size: 3em;
+            text-align: center;
 	}
 	.banner {
 		min-height: 295px;
@@ -2054,10 +2041,10 @@ ul.bottom i {
 		padding: 16px 0px;
 		font-size: 0.9em;
 	}
-	.hands h4 {
+	/*.hands h4 {
 		font-size: 2em;
 		margin-bottom: 11px;
-	}
+	}*/
 	.groom, .bride {
 		padding: 2em 0.35em;
 	}
@@ -2106,22 +2093,19 @@ ul.bottom i {
 	}
 	.couple img {
 		width: 42%;
+            text-align: center;
+            margin: 0 auto;
 	}
 	.groom, .bride {
 		padding: 1em 0.35em;
 	}
-	.main-drop img {
+	/*.main-drop img {
 		width: 32.2%;
 		text-align: center;
 		margin: 0 auto;
-	}
+	}*/
 	.logo a h1 {
 		font-size:3em;
-	}
-	.main-drop img {
-		width: 32.2%;
-		text-align: center;
-		margin: 0 auto;
 	}
 	.banner-info h3 {
 		font-size: 2.6em;
@@ -2256,15 +2240,15 @@ ul.bottom i {
 
 }
 @media (max-width:600px){
-	.main-drop img {
+	/*.main-drop img {
 		width: 32.2%;
 		text-align: center;
 		margin: 0 auto;
-	}
-	.hands h4 {
+	}*/
+/*	.hands h4 {
 		font-size: 1.8em;
 		margin-bottom: 11px;
-	}
+	}*/
 	select {
     width: 100%;
     font-size: 0.8em;
@@ -2277,6 +2261,10 @@ ul.bottom i {
 	.couple h5 {
 		font-size:1.2em;
 	}
+      .couple img {
+        text-align: center;
+        margin: 0 auto
+      }
 	.cs-style-1 figcaption h3 {
 		font-size: 1em;
 		margin: 0em 0 0.3em 0;
@@ -2310,10 +2298,10 @@ ul.bottom i {
 }
 }
 @media (max-width:480px){
-	.hands h4 {
+/*	.hands h4 {
 		font-size: 1.4em;
 		margin-bottom: 11px;
-	}
+	}*/
 	select {
 		width: 100%;
 		font-size: 0.7em;
@@ -2467,10 +2455,10 @@ ul.bottom i {
 	.logo a h1 {
 		font-size: 2.8em;
 	}
-	.hands h4 {
+/*	.hands h4 {
 		font-size: 1.2em;
 		margin-bottom: 6px;
-	}
+	}*/
 	.banner-info h3 {
 		font-size: 2em;
 	}
@@ -2774,11 +2762,11 @@ ul.bottom i {
 	.banner-info h3 {
 		font-size: 1.8em;
 	}
-	.hands h4 {
+/*	.hands h4 {
 		font-size: 1em;
 		margin-bottom: 6px;
-	}
-	.hands {
+	}*/
+	.couple {
 		top: 59%;
 		left: 3%;
 	}
@@ -2797,13 +2785,10 @@ ul.bottom i {
 		padding: 0;
 		margin: 10px 0 0 0;
 	}
-	.main-drop img {
-		width: 26.2%;
-		text-align: center;
-		margin: 0 auto;
-	}
 	.couple img {
 		width: 62%;
+            text-align: center;
+            margin: 0 auto
 	}
 	.welcome-top h2 {
 		margin-top: 20px;
@@ -2819,6 +2804,13 @@ ul.bottom i {
 	.registry-text {
 		padding: 2em 1em;
 	}
+}
+/*iphone 6plus*/
+@media (max-width:414px){
+      .couple {
+        top: 35%;
+        left: 3%;
+      }
 }
 @media (max-width:375px){
 	.blog-right h4, .blog-left h4 {
@@ -3002,12 +2994,12 @@ ul.bottom i {
 	.banner-info h3 {
 		font-size: 1.8em;
 	}
-	.hands h4 {
+	/*.hands h4 {
 		font-size: 1em;
 		margin-bottom: 6px;
-	}
-	.hands {
-		top: 59%;
+	}*/
+	.couple {
+		top: 38%;
 		left: 3%;
 	}
 	select {
@@ -3025,13 +3017,10 @@ ul.bottom i {
 		padding: 0;
 		margin: 10px 0 0 0;
 	}
-	.main-drop img {
-		width: 27.2%;
-		text-align: center;
-		margin: 0 auto;
-	}
 	.couple img {
 		width: 62%;
+            text-align: center;
+            margin: 0 auto
 	}
 	.welcome-top h2 {
 		margin-top: 20px;
@@ -3230,11 +3219,11 @@ ul.bottom i {
 	.banner-info h3 {
 		font-size: 1.8em;
 	}
-	.hands h4 {
+	/*.hands h4 {
 		font-size: 1em;
 		margin-bottom: 6px;
-	}
-	.hands {
+	}*/
+	.couple {
 		top: 59%;
 		left: 3%;
 	}
@@ -3253,13 +3242,10 @@ ul.bottom i {
 		padding: 0;
 		margin: 10px 0 0 0;
 	}
-	.main-drop img {
-		width: 32.2%;
-		text-align: center;
-		margin: 0 auto;
-	}
 	.couple img {
 		width: 62%;
+            text-align: center;
+            margin: 0 auto  
 	}
 	.welcome-top h2 {
 		margin-top: 20px;
