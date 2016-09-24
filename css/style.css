@@ -1126,6 +1126,8 @@ span.devide-line {
 	content: ' ';
 }
 .grid figcaption a {
+    height: inherit;
+    width: inherit;
 	     text-align: center;
     padding: 9px 21px;
     font-size: 0.8em;
